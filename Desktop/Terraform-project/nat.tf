@@ -8,5 +8,3 @@ resource "aws_nat_gateway" "swiggy-natgw-01" {
   }
   depends_on = [aws_internet_gateway.swiggy-igw]
 }
-
-
