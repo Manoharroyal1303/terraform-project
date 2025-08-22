@@ -8,7 +8,7 @@ resource "aws_autoscaling_group" "swiggy-app-asg" {
   }
 
   vpc_zone_identifier = [
-    aws_subnet.swiggy-pvt-sub-1.id
+    aws_subnet.swiggy-pvt-sub-1.id,
     aws_subnet.swiggy-pvt-sub-2.id
   ]
 
