@@ -57,4 +57,3 @@ resource "aws_eip" "swiggy-nat-eip" {
     Name = "swiggy-nat-eip"
   }
 }
-
